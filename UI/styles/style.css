@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #EBF2F1;
+}
+
+/* Global */
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;   
+}
+
+/* Header */
+header{
+    background: #024059;
+    color: #EBF2F1;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #025E73 2px solid;
+}
+
+header a{
+    color: #EBF2F1;
+    font-size: 16px; 
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #logo{
+    float: left;
+
+}
+
+header #logo h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: aliceblue;
+    font-weight: bold;
+}
