@@ -19,11 +19,11 @@ a{
 
 /* Header */
 header{
-    background: #024059;
+    background: #025E73;    
     color: #EBF2F1;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #025E73 2px solid;
+    
 }
 
 header a{
@@ -36,8 +36,7 @@ header ul{
     padding: 0;
 }
 
-header li{
-    float: left;
+header li{    
     display: inline;
     padding: 0 20px 0 20px;
 }
@@ -48,6 +47,7 @@ header #logo{
 }
 
 header #logo h1{
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 
@@ -59,4 +59,70 @@ header nav{
 header a:hover{
     color: aliceblue;
     font-weight: bold;
+}
+
+/* User registration form */
+.register-box{
+    width: 350px;
+    height: 450px;
+    background: #025E73;
+    color: #ffffff;    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+
+}
+
+.register-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;    
+}
+
+.register-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;    
+}
+
+.register-box input{
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+.register-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.register-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25aadf;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.register-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #6099A6;
+    color: #00010D;
+}
+
+.register-box a{
+    font-size: 14px;
+    color: #fff;
+    font-style: italic;
+    
 }
