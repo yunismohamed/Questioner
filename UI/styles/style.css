@@ -62,7 +62,7 @@ header a:hover{
 }
 
 /* User registration form */
-.register-box{
+.user-box{
     width: 350px;
     height: 450px;
     background: #025E73;
@@ -76,25 +76,25 @@ header a:hover{
 
 }
 
-.register-box h1{
+.user-box h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;    
 }
 
-.register-box p{
+.user-box p{
     margin: 0;
     padding: 0;
     font-weight: bold;    
 }
 
-.register-box input{
+.user-box input{
     width: 100%;
     margin-bottom: 20px;    
 }
 
-.register-box input[type="text"], input[type="password"]{
+.user-box input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -104,7 +104,7 @@ header a:hover{
     font-size: 16px;
 }
 
-.register-box input[type="submit"]{
+.user-box input[type="submit"]{
     border: none;
     outline: none;
     height: 40px;
@@ -114,13 +114,13 @@ header a:hover{
     border-radius: 3px;
 }
 
-.register-box input[type="submit"]:hover{
+.user-box input[type="submit"]:hover{
     cursor: pointer;
     background: #6099A6;
     color: #00010D;
 }
 
-.register-box a{
+.user-box a{
     font-size: 14px;
     color: #fff;
     font-style: italic;
