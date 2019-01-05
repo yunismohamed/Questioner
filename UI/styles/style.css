@@ -41,12 +41,12 @@ header li{
     padding: 0 20px 0 20px;
 }
 
-header #logo{
+header #logo-area{
     float: left;
 
 }
 
-header #logo h1{
+header #logo-area h1{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
@@ -125,4 +125,18 @@ header a:hover{
     color: #fff;
     font-style: italic;
     
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #logo-area, header nav, header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    header{
+        padding-bottom: 30px;
+    }  
 }
