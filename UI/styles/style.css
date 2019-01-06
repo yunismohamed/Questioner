@@ -188,6 +188,17 @@ header a:hover{
     border-radius: 3px;
 }
 
+.questions img{
+    width: 24px;
+    height: 24px;
+}
+
+#downvote{
+    width: 80%;
+    float: right;
+   
+}
+
 
 
 
