@@ -10,6 +10,7 @@ body{
 /* Global */
 a{
     text-decoration: none;
+    color: #00ADB5;
 }
 .container{
     width: 80%;
@@ -126,6 +127,70 @@ header a:hover{
     font-style: italic;
     
 }
+
+#boxes{
+    margin-top: 30px;
+    
+}
+
+
+
+#boxes .box1{
+    float: left;   
+    padding: 10px;
+    border: 2px solid #BDD3DE;
+    border-radius: 10px; 
+    text-align: center;
+
+    }
+
+.box1 h3{
+    color: #025E73;
+}
+
+
+#boxes .box2{
+    float: right;
+    width: 60%;    
+    padding: 10px;
+    font-size: 16px;       
+}
+
+.box2 h3{
+    color: #025E73;
+}
+
+
+.questions{
+    border-top: 1px solid #BDD3DE;
+    
+}
+
+.textarea1{
+    
+    border: 2px solid #BDD3DE;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    height: 60px;
+    width: 80%;
+    color: #025E73;
+    font-size: 16px;
+}
+
+.my-questions button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25aadf;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+
+
+
 
 /* Media Queries */
 @media(max-width: 768px){
