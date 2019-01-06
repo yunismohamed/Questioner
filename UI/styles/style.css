@@ -194,7 +194,7 @@ header a:hover{
 
 /* Media Queries */
 @media(max-width: 768px){
-    header #logo-area, header nav, header nav li{
+    #boxes, header #logo-area, header nav, header nav li{
         float: none;
         text-align: center;
         width: 100%;
@@ -203,5 +203,7 @@ header a:hover{
 
     header{
         padding-bottom: 30px;
-    }  
+    }
+    
+  
 }
