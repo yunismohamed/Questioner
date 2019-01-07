@@ -225,7 +225,20 @@ header a:hover{
     display: none;
 }
 
+.box2 ul{
+    list-style: none;    
+}
 
+.button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25aadf;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
 
 
 
