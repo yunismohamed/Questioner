@@ -194,10 +194,28 @@ header a:hover{
 }
 
 #downvote{
-    width: 80%;
+    width: 60%;
     float: right;
    
 }
+
+.questions input{
+    float: right;
+    width: 20%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #25aadf;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;    
+   
+}
+
+#new-comment{
+    display: none;
+}
+
 
 
 
