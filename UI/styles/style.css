@@ -148,6 +148,16 @@ header a:hover{
     color: #025E73;
 }
 
+.box1 img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.box1 h4{
+    text-align: none;
+}
+
 
 #boxes .box2{
     float: right;
